@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.static("public"));     //using static folder(public) 
 app.use(bParser.urlencoded({ extended: true })); //using body-parser 
-app.listen(3000 || process.env.port, (req, res) => 
+app.listen(process.env.PORT || 3000, (req, res) => 
 {
     console.log("Working Server")
 })

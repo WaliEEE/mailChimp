@@ -8,4 +8,5 @@ Add Subscribers Sign Up with MailChimp Api
 Requirements:
 # Api Key
 # List Id
-# Mailchimp Account
+# MailChimp Account
+# Heroku Account

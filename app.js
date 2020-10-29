@@ -6,6 +6,8 @@ const app = express();
 
 app.use(express.static("public"));     //using static folder(public) 
 app.use(bParser.urlencoded({ extended: true })); //using body-parser 
+
+//Listen to Local Port(3000) or Dynamic Port
 app.listen(process.env.PORT || 3000, (req, res) => 
 {
     console.log("Working Server")
